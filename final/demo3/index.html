@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!-- BOUTON -->
+    <button id="btn-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+<!-- BOUTON -->   
+
+
+
+<!-- NAVIGATION -->
+    <nav>
+        <div id="logo-container">
+            <a href="#">Votre Logo</a>
+        </div>
+        <a href="#" class="lien1"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a>
+        <a href="#" class="lien2"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Formations</a>
+        <a href="#" class="lien3"><i class="fa fa-user" aria-hidden="true"></i>Profil</a>
+        <a href="#" class="lien4"><i class="fa fa-rss" aria-hidden="true"></i>Blog</a>
+        <a href="#" class="lien5"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a>
+    </nav>
+<!-- NAVIGATION -->
+
+
+
+<!-- CONTENU -->
+    <main>
+        <header>
+            <h1>Navigation cachée côté droit sur toutes les résolutions</h1>
+        </header>
+        <section>
+            <span>Infos et liens utiles :</span>
+            <ul>
+                <li><a href="https://developers.google.com/speed/libraries/#jquery" target="_blank">jQuery hébergé par Google</a></li>
+                <li><a href="http://fontawesome.io/" target="_blank">Font Awesome</a></li>
+                <li><a href="https://fr.tuto.com/css/gratuit-integrer-des-icones-avec-font-awesome-css,71311.html" target="_blank">Mon tuto gratuit pour en savoir plus sur Font Awesome</a></li>
+                <li><a href="https://fonts.google.com/" target="_blank">Google Font</a></li>
+                <li><a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a></li>
+            </ul>   
+            <span>Pour toutes questions sur le tuto, n'hésitez pas à utiliser la section entraide, j'y répondrai avec plaisir ! <i class="fa fa-smile-o" aria-hidden="true"></i></span>
+        </section>
+    <button><a href="../demo1/index.html">demo 1</a></button>
+    <button><a href="../demo2/index.html">demo 2</a></button>
+    </main>
+<!-- CONTENU -->
+
+
+<!-- MASQUE -->
+    <div id="mask"></div>
+<!-- MASQUE -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+    
+    $(document).ready(function(){
+        $('#btn-burger, #mask').on('click', function(){
+            $('nav, main, body, #mask, #btn-burger, nav>a').toggleClass('open');
+        });
+    });
+    
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

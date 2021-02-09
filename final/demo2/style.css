@@ -1,0 +1,180 @@
+/* STYLES GENERAUX */
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 2000px;
+}
+body.open{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+/* NAVIGATION */
+nav{
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+nav.open{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+nav>a{
+    display: block;
+    height: 40px;
+    padding: 15px 0 15px 25px;
+    color: #555;
+    line-height: 40px;
+    -webkit-transform: translateX(-150px);
+    transform: translateX(-150px);
+}
+nav>a.open{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.lien1{
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+.lien2{
+    -webkit-transition: -webkit-transform 0.6s ease;
+    transition: -webkit-transform 0.6s ease;
+    transition: transform 0.6s ease;
+    transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+}
+.lien3{
+    -webkit-transition: -webkit-transform 0.7s ease;
+    transition: -webkit-transform 0.7s ease;
+    transition: transform 0.7s ease;
+    transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+}
+.lien4{
+    -webkit-transition: -webkit-transform 0.8s ease;
+    transition: -webkit-transform 0.8s ease;
+    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+}
+.lien5{
+    -webkit-transition: -webkit-transform 0.9s ease;
+    transition: -webkit-transform 0.9s ease;
+    transition: transform 0.9s ease;
+    transition: transform 0.9s ease, -webkit-transform 0.9s ease;
+}
+nav .fa{
+    width: 30px;
+}
+#logo-container{
+    height: 180px;
+    background-color: darkturquoise;
+    position: relative;
+}
+#logo-container a{
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    font-size: 26px;
+}
+
+/* BOUTON */
+#btn-burger{
+    width: 34px;
+    height: 26px;
+    position: fixed;
+    z-index: 1000;
+    top: 25px;
+    left: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+#btn-burger.open{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+#btn-burger span{
+    position: absolute;
+    z-index: 1001;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #555;
+    -webkit-transition: width 0.5s ease, -webkit-transform 0.5s ease;
+    transition: width 0.5s ease, -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease, width 0.5s ease;
+    transition: transform 0.5s ease, width 0.5s ease, -webkit-transform 0.5s ease;
+}
+#btn-burger span:nth-child(1){
+    top: 0;
+}
+#btn-burger span:nth-child(2){
+    top: 12px;
+}
+#btn-burger span:nth-child(3){
+    bottom: 0;
+}
+#btn-burger.open span:nth-child(1){
+    -webkit-transform: rotate(-45deg) translateX(-7px);
+    transform: rotate(-45deg) translateX(-7px);
+    width: 60%;
+}
+#btn-burger.open span:nth-child(3){
+    -webkit-transform: rotate(45deg) translateX(-7px);
+    transform: rotate(45deg) translateX(-7px);
+    width: 60%;
+}
+
+/* CONTENU */
+main{
+    padding: 80px 30px 0 80px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
+}
+main.open{
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+}
+
+/* MASQUE */
+#mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+    z-index: 998;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: opacity 0.5s ease, visibility 0.5s ease;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+}
+#mask.open{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
