@@ -31,7 +31,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 999;
-    /* transform: translateX(-30rem); */
+    transform: translateX(-30rem);
     transition: transform .5s ease;
 
     display: flex;
