@@ -63,6 +63,14 @@ nav #menu {
     background: #f31d58;
 }
 
+nav #menu a {
+    display: block;
+    color: #fff;
+    font-size: 2.2rem;
+    height: 3rem;
+    padding: 2rem 0rem 1rem 2.5rem;
+}
+
 
 nav.open {
     transform: translateX(0);
