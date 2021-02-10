@@ -8,6 +8,11 @@ body {
     height: 200vh;
     background: #26293d;
 }
+
+body.open {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -90,4 +95,13 @@ nav #menu a .fab:hover {
 
 nav.open {
     transform: translateX(0);
+}
+
+main {
+    padding: 10rem 5rem 0rem 5rem;
+    transition: transform .5s ease;
+}
+
+main.open {
+    transform: translateX(30rem);
 }
