@@ -71,8 +71,10 @@ nav #menu a {
     padding: 2rem 0rem 1rem 2.5rem;
 }
 
-nav #menu a i {
-    margin-right: 1rem;
+nav #menu a .fas,
+nav #menu a .fab {
+    width: 3rem;
+    padding-right: 1rem;
 }
 
 
