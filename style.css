@@ -8,6 +8,16 @@ body {
     height: 200vh;
 }
 
+/* BOUTON BURGER */
+#btn-burger {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    top: 2.5rem;
+    left: 2.5rem;
+    z-index: 1000;
+}
+
 /* NAV */
 nav {
     width: 30rem;
@@ -17,4 +27,6 @@ nav {
     top: 0;
     left: 0;
     z-index: 999;
+    transition: 0.5s;
+    transform: translateX(-30rem);
 }
