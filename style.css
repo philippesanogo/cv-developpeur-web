@@ -25,6 +25,11 @@ a {
     top: 2.5rem;
     left: 2.5rem;
     z-index: 1000;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none; /* pour enlever les bordures quand on clique sur le bouton */
 }
 
 /* NAV */
