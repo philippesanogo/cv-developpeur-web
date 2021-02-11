@@ -19,8 +19,8 @@ a {
 
 /* BOUTON BURGER */
 #btn-burger {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 3rem;
     position: fixed;
     top: 2.5rem;
     left: 2.5rem;
@@ -30,6 +30,25 @@ a {
     border: none;
     cursor: pointer;
     outline: none; /* pour enlever les bordures quand on clique sur le bouton */
+}
+
+#btn-burger  span {
+    position: absolute;
+    z-index: 1001;
+    left: 0;
+    width: 100%;
+    height: .3rem;
+    background: #f31d58;
+}
+
+#btn-burger  span:nth-child(1) {
+    top: 0;
+}
+#btn-burger  span:nth-child(2) {
+    top: 1.3rem;
+}
+#btn-burger  span:nth-child(3) {
+    bottom: 0;
 }
 
 /* NAV */
