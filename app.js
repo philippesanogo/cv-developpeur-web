@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#btn-burger").on('click', function() {
+    $("#btn-burger, #overlay").on('click', function() {
         $("nav, main, body, #overlay").toggleClass("open");
     });
 });
