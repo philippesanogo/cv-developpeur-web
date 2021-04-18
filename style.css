@@ -154,7 +154,7 @@ main.non-visible {
 }
 
 main h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 main.open {
@@ -168,8 +168,8 @@ main section {
 
 main section p {
     width: 50%;
-    font-size: 2rem;
-    line-height: 3.8rem;
+    font-size: 3rem;
+    line-height: 4.5rem;
     text-align: justify;
 }
 
@@ -208,5 +208,5 @@ main section p {
 }
 
 .container-competence .container-img {
-    /* margin-right: 10rem; */
+    margin: 4rem;
 }
