@@ -194,6 +194,41 @@ main section p {
 }
 
 
+/* page experiences */
+
+.container-experiences {
+    width: 1190px;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.container-experiences .experience {
+    margin-bottom: 3rem;
+}
+
+.container-experiences .experience .date {
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.container-experiences .experience .poste {
+    color: #f31d58;
+    margin-bottom: 1rem;
+}
+
+.container-experiences .client {
+    color: #429397;
+}
+
+
+
+
 /* page competence */
 
 .container-competence {
