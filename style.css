@@ -192,3 +192,21 @@ main section p {
     opacity: 1;
     visibility: visible;
 }
+
+
+/* page competence */
+
+.container-competence {
+    width: 1190px;
+    margin-top: 5rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-competence .container-img {
+    /* margin-right: 10rem; */
+}
