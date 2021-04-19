@@ -287,6 +287,57 @@ main section p {
     margin: 4rem;
 }
 
+
+
+/* page qualites */
+
+.container-qualites {
+    width: 1190px;
+    margin-top: 5rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-qualites .qualite {
+    width: 24rem;
+    margin: 4rem;
+}
+
+.container-qualites .qualite p {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container-qualites .qualite p:hover {
+    color: #f31d58;
+}
+
+
+
+/* page langues */
+
+.container-langues {
+    width: 1190px;
+    margin-top: 5rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-langues .titre {
+    margin-top: 2rem;
+    color: #f31d58;
+    font-size: 2rem;
+    text-align: center;
+}
+
 /* page centre interets */
 
 .container-interets {
