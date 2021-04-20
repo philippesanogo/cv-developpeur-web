@@ -338,6 +338,12 @@ main section p {
     text-align: center;
 }
 
+.container-langues .langue .titre span {
+    color: #429397;
+    font-style: italic;
+    font-size: 1.4rem;
+} 
+
 /* page centre interets */
 
 .container-interets {
